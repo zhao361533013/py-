@@ -1,0 +1,17 @@
+函数的定义：
+关键字：def xxx ():
+向函数传递信息：设定形参  使用时像其传递实参
+传递实参时，每个实参都关联到函数定义中的一个形参，最简单的关联方式时根据位置。例：
+def describe_pet (animal_type, pet_name):
+  print("I have a " + animal_type + ".");
+  print ("MY" + animal_type + " 's name is " + pet_type.title() + ".");
+describe_pet ("hamster","harry");
+python 使用缩进来表示代码逻辑。
+函数可以被调用很多次，实参位置的顺序很重要
+关键字实参 ： 传递给函数的名称-值 对，直接关联 无需考虑顺序。
+def describe_pet (animal_type, pet_name):
+  print("I have a " + animal_type + ".");
+  print ("MY" + animal_type + " 's name is " + pet_type.title() + ".");
+describe_pet( pet_name = "xiaoqi", animal_type = "dog");
+函数的形参可以设定默认值
+函数返回值 一个或一组值或字典
