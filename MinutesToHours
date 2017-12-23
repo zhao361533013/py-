@@ -1,0 +1,20 @@
+import sys
+
+def Hours():
+	for str0 in sys.argv:
+		b = str0;
+	minutes = int (b) 
+	while True:
+		try:
+			if minutes>0:
+				hours = int (minutes/60)
+				minute = minutes % 60
+				print ("{} H, {} M".format(hours,minute))
+				break;
+			else:
+				raise ValueError
+				break;			
+		except ValueError:
+	       		print ("ValueError:  Input number cannot be negative")
+		break 
+Hours()
